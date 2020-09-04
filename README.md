@@ -27,7 +27,7 @@ The following might be useful if you face issues with the steps above:
 
 The second link above no longer allows you to see the original script in chrome which is quite useful for debugging.
 
-A better solution would be to NOT add --no-source-maps to package.json and instead replace the file node_modules/paper/dist/paper-full.js with a working copy available at https://pose-animator-demo.firebaseapp.com/node_modules/paper/dist/paper-full.js.
+A better solution would be to NOT add --no-source-maps to package.json and instead replace the file node_modules/paper/dist/paper-full.js with a working copy available in this repository [paper-full.js](paper-full.js).
 
 
 ## Platform support
