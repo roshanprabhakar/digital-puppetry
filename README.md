@@ -1,7 +1,7 @@
 # Digital Puppetry - Audience
 This project intends to provide a tool to extract and measure audience feedback
 
-## Install
+### Usage
 
 clone the repository:
 ```sh
