@@ -1,6 +1,5 @@
-# Pose Animator for STEM to SHTEM
-
-A twist on the conventional video streaming pipeline for the purposes of reductions in net latency. 
+# Digital Puppetry - Audience
+This project intends to provide a tool to extract and measure audience feedback
 
 ## Install
 
