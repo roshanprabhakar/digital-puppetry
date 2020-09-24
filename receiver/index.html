@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Receiver Node</title>
+    <script src="receiver.js"></script>
+</head>
+<body>
+
+<style>
+
+    body {
+        border: 1px solid;
+        height: 100vh;
+    }
+
+    #videos {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        flex-wrap: wrap;
+
+        position: relative;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        min-height: 80%;
+        border: 1px solid;
+    }
+
+    .poseCanvas {
+        border: 1px solid;
+        width: 300px;
+        height: 250px;
+    }
+
+</style>
+
+<h1 id="main-text">Designated Role: RECEIVER</h1>
+<div id="videos"></div>
+
+<script>
+    start();
+</script>
+
+</body>
+</html>
