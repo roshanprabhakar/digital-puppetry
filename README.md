@@ -13,7 +13,12 @@ Run the signalling server:
 node app.js
 ```
 
-Connect to this server:
+Connect to this server as a receiver (this must happen before attempting to connect transmitter nodes):
+* open a browser
+* navigate to <hostname>:<port=3000>
+* if the host is not on the same machine as the signalling server, hostname corresponds to the lan ip address of the signaling server
+
+Connect to this server as a sender (only do this after a receiver has been established):
 ```sh
 parcel sender/sender.html --no-hmr --open
 ```
