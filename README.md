@@ -18,7 +18,7 @@ Connect to this server:
 parcel sender/sender.html --no-hmr --open
 ```
 * The first connection is designated the receiver (director) node, all data is streamed to this node
-* The all following connections stream facemesh information to the receiver node
+* All following connections stream facemesh information to the receiver node
 
 ### Note
 * facemesh information is streamed
